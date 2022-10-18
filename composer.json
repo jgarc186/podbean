@@ -1,6 +1,6 @@
 {
-    "name": "garcia/podbean",
-    "description": "This package helps to facilitade the integration of Podbean's API",
+    "name": "josegarcia/podbean",
+    "description": "This package helps to facilitate the integration of Podbean's API",
     "type": "composer-plugin",
     "autoload": {
         "psr-4": {
