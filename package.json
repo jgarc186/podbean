@@ -1,0 +1,15 @@
+{
+  "name": "podbean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.19.1",
+    "prettier": "^2.7.1"
+  }
+}

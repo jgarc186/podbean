@@ -1,0 +1,29 @@
+{
+    "name": "garcia/podbean",
+    "description": "This package helps to facilitade the integration of Podbean's API",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Garcia\\Podbean\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Garcia",
+            "email": "jose.garcia051@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.0",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.29",
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    }
+}
