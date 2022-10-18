@@ -1,11 +1,11 @@
 <?php
 
-namespace Garcia\Podbean\Providers;
+namespace Garcia\Podbean\Services;
 
-use Garcia\Podbean\Exceptions\NotAbleToConnectionException;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\GuzzleException;
+use Garcia\Podbean\Exceptions\NotAbleToConnectionException;
 
 abstract class Podbean
 {

@@ -2,12 +2,14 @@
 
 namespace Garcia\Podbean;
 
-use Garcia\Podbean\Providers\Authentication;
+use Garcia\Podbean\Services\Authentication;
 use Garcia\Podbean\Exceptions\NoEpisodesAvailableException;
 
 class Episodes extends Authentication
 {
     /**
+     * Get authorized podcast episode list
+     *
      * @param int $starting
      * @param int $ending
      * @return array

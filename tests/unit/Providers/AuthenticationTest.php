@@ -3,7 +3,7 @@
 namespace unit\Providers;
 
 use PHPUnit\Framework\TestCase;
-use Garcia\Podbean\Providers\Authentication;
+use Garcia\Podbean\Services\Authentication;
 use Garcia\Podbean\Exceptions\NotAbleToConnectionException;
 
 class AuthenticationTest extends TestCase

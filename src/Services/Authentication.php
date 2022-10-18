@@ -1,6 +1,6 @@
 <?php
 
-namespace Garcia\Podbean\Providers;
+namespace Garcia\Podbean\Services;
 
 class Authentication extends Podbean
 {
