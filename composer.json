@@ -2,6 +2,9 @@
     "name": "josegarcia/podbean",
     "description": "This package helps to facilitate the integration of Podbean's API",
     "type": "composer-plugin",
+    "license": [
+        "MIT"
+    ],
     "autoload": {
         "psr-4": {
             "Garcia\\Podbean\\": "src/"
